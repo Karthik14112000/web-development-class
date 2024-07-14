@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <title>
+        FORM
+    </title>
+    <style>
+        .h1 {
+            border: 5px;
+            width: 700px;
+            padding-left: 10%;
+            background-color: rgb(51, 224, 247);
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table class="h1">
+        <caption style="background-color:rgb(51, 224, 247); border: 2px solid black;"><b>We Create Give Form</b>
+        </caption><br>
+        <tr>
+            <th>Enter First Name</th>
+            <td><input type="text" name="fname" placeholder="Jack" required></td>
+        </tr>
+        <tr>
+            <th>Enter Last Name</th>
+            <td><input type="text" name="lname" placeholder="Sparrow" required></td>
+        </tr>
+        <tr>
+            <th>Date of Birth</th>
+            <td><input type="date" name="dob" placeholder="01-01-2000" required></td>
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <td>Male<input type="radio" name="Gender"></td>
+            <td>Female<input type="radio" name="Gender"></td>
+            <td>Others<input type="radio" name="Gender"></td>
+        </tr>
+        <tr>
+            <th>Email Id</th>
+            <td><input type="email" name="email" placeholder="jack@gmail.com" required></td>
+        </tr>
+        <tr>
+            <th>Contact Number</th>
+            <td><input type="number" name="Contact" placeholder="9361451087" required></td>
+        </tr>
+        <tr>
+            <th>Qualification</th>
+            <td><input type="text" name="Qualification" placeholder="B.Sc Cs" required></td>
+        </tr>
+        <tr>
+            <th>Experience</th>
+            <td><input type="text" name="Experience" placeholder="(In Months)" required></td>
+        </tr>
+        <tr>
+            <th>languages Known</th>
+            <td><input type="text" name="Lk" required></td>
+        </tr>
+        <tr>
+            <th>Enter Address</th>
+            <td>
+                <textarea rows="3" cols="30" placeholder="Enter Address Deatails" required></textarea>
+            </td>
+        </tr>
+        <tr>
+            <th>Applied Position</th>
+            <td>
+                <select name="Position">
+                    <option value="" selected="selected" disabled="disabled">Select Position</option>
+                    <option value="1">Front-end web Development</option>
+                    <option value="2">fullstock web Development</option>
+                    <option value="3">UI/UX</option>
+                </select>
+            </td>
+        <tr>
+            <th>Upload Resume</th>
+            <td>
+                <input type="file">
+            </td>
+        <tr>
+            <td colspan="2" style="text-align: center;padding: 20px;">
+                <input type="submit" value="Save">
+                <input type="reset" value="Reset">
+            </td>
+        </tr>
+
+    </table>
+</body>
+
+</html>
