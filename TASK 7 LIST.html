@@ -1,0 +1,103 @@
+<html>
+
+<head>
+    <title>LIST</title>
+    <style>
+        .arrow {
+            list-style-image: url(images/Arrow.png);
+            padding-left: 10%;
+            padding-bottom: 2%;
+        }
+
+        .flexbox {
+            background-color: rgb(255, 18, 176);
+            padding: 2px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .flexbox>div {
+            background-color: rgb(255, 255, 255);
+            margin: 2px;
+            height: 50px;
+            width: 100px;
+            line-height: 50px;
+            text-align: center;
+            font-size: medium;
+            font-family: 'Times New Roman', Times, serif;
+            flex: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h3 style="background-color:rgb(34, 255, 134);color: red; padding-left: 10px;">Unorder list</h3>
+    <div style="border: 3px double red; ">
+        <ul style="list-style-type: disc;">
+            <li>Html</li>
+            <li>Css</li>
+            <li>Javascript</li>
+        </ul>
+        <ul style="list-style-type:square;">
+            <li>Html</li>
+            <li>Css</li>
+            <li>Javascript</li>
+        </ul>
+        <ul style="list-style-type: circle;">
+            <li>Html</li>
+            <li>Css</li>
+            <li>Javascript</li>
+        </ul>
+        <ul class="arrow" style="margin: auto;">
+            <li>Html</li>
+            <li>Css</li>
+            <li>Javascript</li>
+        </ul>
+    </div>
+    <h3 style="background-color:rgb(34, 255, 134);color: red; padding-left: 10px;">order list</h3>
+    <div style="border: 3px double red; ">
+        <ol>
+            <li>Html</li>
+            <li>Css</li>
+            <li>Javascript</li>
+        </ol>
+        <ol type="A">
+            <li>Html</li>
+            <li>Css</li>
+            <li>Javascript</li>
+        </ol>
+        <ol type="I">
+            <li>Html</li>
+            <li>Css</li>
+            <li>Javascript</li>
+        </ol>
+    </div>
+    <hr>
+    <h2 style="background-color:rgb(34, 255, 134);color: red; padding-left: 10px;">Iframe</h2>
+    <div style="border: 3px double red; padding-bottom:1%; padding-left: 1%;">
+        <h2 style="text-align: center;">Justrise Technologies</h2>
+        <iframe src="https://justrise.in/" style="height: 200px; width:50%;"></iframe><br>
+        <a href="https://justrise.in/" target="_blank">Visit Justrise Technologies</a>
+    </div><br>
+    <h2 style="background-color:rgb(34, 255, 134);color: red; padding-left: 10px;">Layouts</h2>
+    <div class="flexbox">
+        <div>J</div>
+        <div>U</div>
+        <div>S</div>
+        <div>T</div>
+        <div>R</div>
+        <div>I</div>
+        <div>S</div>
+        <div>E</div>
+        <div>T</div>
+        <div>E</div>
+        <div>C</div>
+        <div>H</div>
+    </div><br>
+    <div ><img style="float: left;margin:1px;"src="images/Logo-02-2.png"/>
+        Just Rise Academy is an online learning marketplace for K to Job Seekers that provide Online Gig Job/Freelancing
+        Courses in regional languages at an affordable cost. Just Rise is aimed at Unemployed- Online Gig Job Seekers.
+    </div>
+</body>
+
+</html>
