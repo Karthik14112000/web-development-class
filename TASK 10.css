@@ -1,0 +1,37 @@
+.btn-base {
+    width: 150px;
+    font-size: medium;
+    border-radius: 15px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.btn-dark {
+    background-color: rgb(135, 235, 160);
+    color: red;
+}
+
+.btn-light {
+    background-color: rgb(135, 235, 160);
+    color: red;
+}
+.btn-outline{
+    background-color: rgb(135, 235, 160);
+    color: red;
+    border: 2px solid rgb(86, 35, 224);
+    }
+    
+.btn-style {
+    background-color: rgb(70, 231, 243);
+    color: rgb(247, 0, 0);
+    border: 3px double rgb(57, 12, 255);
+    width: 200px;
+    padding: 10px;
+    font-size: medium;
+    cursor: pointer;
+}
+.btn-style:hover {
+    background-color: rgb(255, 0, 221);
+    color: rgb(255, 255, 255);
+    border: 3px double yellow;
+   }
