@@ -1,0 +1,39 @@
+#div1 {
+    background-color: orange;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+}
+
+#div2 {
+    background-color: rgb(32, 211, 41);
+}
+
+#div3 {
+    background-color: rgb(250, 5, 189);
+}
+
+#div4 {
+    background-color: rgb(136, 231, 255);
+}
+
+#div5 {
+    background-color: rgb(255, 4, 4);
+  
+}
+
+div {
+    width: 60px;
+    height: 80px;
+    margin: 10px;
+    color: white;
+    border-color: rgb(2, 2, 2);
+    border-radius: 200px;
+    text-align: center;
+    line-height: 75px;
+    font-size: x-large;
+}
+
+.sticky {
+    background-color: dimgrey;
+}
