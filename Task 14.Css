@@ -1,0 +1,42 @@
+body {
+    background-image: url(images/loginback.jpg);
+
+}
+
+.style {
+    background-image: url(images/login1.jpg);
+    color: rgb(2, 2, 2);
+    width: 400px;
+    height: 450px;
+    margin: 250px;
+    margin-top: 220px;
+    text-align: center;
+    padding-top: 60px;
+    border-radius: 70px;
+
+}
+
+button {
+    border: 1px solid rgb(45, 51, 51);
+    border-radius: 100px;
+    background-color: aqua;
+
+}
+
+.submit {
+    border: 1px solid rgb(3, 3, 3);
+    border-radius: 50px;
+    background-color: aqua;
+    color: rgb(14, 13, 13);
+    margin-left: 30px;
+}
+
+.right {
+    background-image: url(images/learnmore.jpg);
+    float: right;
+    flex-direction: row;
+    height: 180px;
+    width: 300px;
+    padding: 1px;
+    text-align: center;
+     }
