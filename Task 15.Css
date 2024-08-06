@@ -1,0 +1,60 @@
+body {
+    background: fixed;
+    background-image: url(images/background.jpg);
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+header {
+    background-color: #d8a9ca;
+    color: #050505;
+    text-align: left;
+    padding: 1mm;
+    left: 400px;
+    width: 300px;
+   
+    
+}
+
+.nav {
+    display: flex;
+    padding: 1em;
+    flex-direction: row;
+    justify-content: left;
+    margin: auto;
+    width: -50px;
+}
+
+.active {
+    background-color: #ddd6d683;
+    border-left: 5px solid #e614a7;
+    padding-left: 20px;
+    width: 170px;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 1em;
+    padding: 10px;
+}
+
+.right {
+    text-align: center;
+    list-style: none;
+    justify-content: center;
+    width: 300px;
+    height: 500px;
+    padding: 90px;
+    padding-left: 200px;
+
+}
+
+input {
+    padding: 5px;
+    width: 300px;
+    text-align: center;
+}
